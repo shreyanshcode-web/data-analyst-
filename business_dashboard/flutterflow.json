@@ -1,0 +1,51 @@
+{
+  "name": "Business Dashboard",
+  "description": "A modern business analytics dashboard with real-time data visualization",
+  "repository": "https://github.com/yourusername/business_dashboard",
+  "theme": {
+    "customTheme": true,
+    "primaryColor": "#2196F3",
+    "secondaryColor": "#03DAC6",
+    "tertiaryColor": "#FF5722"
+  },
+  "pages": [
+    {
+      "name": "Login",
+      "route": "/login",
+      "file": "lib/presentation/login_screen/login_screen.dart"
+    },
+    {
+      "name": "Dashboard",
+      "route": "/dashboard",
+      "file": "lib/presentation/dashboard_overview/dashboard_overview_screen.dart"
+    },
+    {
+      "name": "Data Upload",
+      "route": "/data-upload",
+      "file": "lib/presentation/data_upload/data_upload_screen.dart"
+    }
+  ],
+  "components": [
+    {
+      "name": "Modern3DCard",
+      "type": "widget",
+      "file": "lib/widgets/modern_3d_card.dart"
+    },
+    {
+      "name": "CustomLoadingIndicator",
+      "type": "widget",
+      "file": "lib/widgets/custom_loading_indicator.dart"
+    }
+  ],
+  "assets": {
+    "images": "assets/images",
+    "icons": "assets/icons"
+  },
+  "dependencies": {
+    "fl_chart": "^0.65.0",
+    "file_picker": "^5.5.0",
+    "google_fonts": "^6.1.0",
+    "flutter_animate": "^4.3.0",
+    "sizer": "^2.0.15"
+  }
+} 

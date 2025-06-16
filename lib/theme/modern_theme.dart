@@ -6,7 +6,7 @@ class ModernTheme {
   static const backgroundColor = Color(0xFF1A1A1A);
   static const surfaceColor = Color(0xFF2A2A2A);
   static const errorColor = Color(0xFFCF6679);
-  
+
   static const cardGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
@@ -39,7 +39,7 @@ class ModernTheme {
         error: errorColor,
       ),
       scaffoldBackgroundColor: backgroundColor,
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: surfaceColor,
         elevation: 0,
         shape: RoundedRectangleBorder(
@@ -76,4 +76,4 @@ class ModernTheme {
       ),
     );
   }
-} 
+}
